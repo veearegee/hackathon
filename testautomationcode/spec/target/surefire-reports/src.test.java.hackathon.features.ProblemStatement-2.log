@@ -1,0 +1,113 @@
+16:10:49.663 request:
+1 > POST http://35.188.114.237:8088/api/v2/addusers
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 68
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 35.188.114.237:8088
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+{"id":100,"name":"Akshatha","surname":"Friend","adress":"Bengaluru"}
+
+16:10:50.191 response time in milliseconds: 526.76
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Sat, 20 Jun 2020 10:40:49 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"id":73,"name":"Akshatha","surname":"Friend","adress":"Bengaluru"}
+
+16:10:50.195 [print] Add user Response {
+  "id": 73,
+  "name": "Akshatha",
+  "surname": "Friend",
+  "adress": "Bengaluru"
+}
+
+16:10:50.209 [print] User Id generated :: 73
+16:10:50.222 request:
+2 > PUT http://35.188.114.237:8088/api/v2/updateuser
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 71
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: 35.188.114.237:8088
+2 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+{"id":73,"name":"NewAkshatha","surname":"NewFriend","adress":"Chennai"}
+
+16:10:50.748 response time in milliseconds: 525.00
+2 < 200
+2 < Content-Type: application/json;charset=UTF-8
+2 < Date: Sat, 20 Jun 2020 10:40:50 GMT
+2 < Server: Apache-Coyote/1.1
+2 < Transfer-Encoding: chunked
+{"id":73,"name":"NewAkshatha","surname":"NewFriend","adress":"Chennai"}
+
+16:10:50.751 [print] Update Response >>> {
+  "id": 73,
+  "name": "NewAkshatha",
+  "surname": "NewFriend",
+  "adress": "Chennai"
+}
+
+16:10:50.760 request:
+3 > DELETE http://35.188.114.237:8088/api/v2/73/deleteuser
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Host: 35.188.114.237:8088
+3 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+
+16:10:51.324 response time in milliseconds: 563.34
+3 < 200
+3 < Content-Type: application/json;charset=UTF-8
+3 < Date: Sat, 20 Jun 2020 10:40:50 GMT
+3 < Server: Apache-Coyote/1.1
+3 < Transfer-Encoding: chunked
+{"id":73,"name":"NewAkshatha","surname":"NewFriend","adress":"Chennai"}
+
+16:10:51.327 [print] Delete Response >>> {
+  "id": 73,
+  "name": "NewAkshatha",
+  "surname": "NewFriend",
+  "adress": "Chennai"
+}
+
+16:10:51.331 request:
+4 > DELETE http://35.188.114.237:8088/api/v2/123/deleteuser
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Host: 35.188.114.237:8088
+4 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+
+16:10:52.188 response time in milliseconds: 856.41
+4 < 404
+4 < Content-Type: application/json;charset=UTF-8
+4 < Date: Sat, 20 Jun 2020 10:40:52 GMT
+4 < Server: Apache-Coyote/1.1
+4 < Transfer-Encoding: chunked
+{"apierror":{"status":"NOT_FOUND","timestamp":{"year":2020,"month":"JUNE","monthValue":6,"dayOfMonth":20,"hour":10,"minute":40,"second":52,"nano":66000000,"dayOfWeek":"SATURDAY","dayOfYear":172,"chronology":{"calendarType":"iso8601","id":"ISO"}},"message":"User was not found for parameters {Id not found=123}Error in Id/Entity","debugMessage":null,"subErrors":null}}
+
+16:10:52.191 [print] Delete non-existing id Response >>> {
+  "apierror": {
+    "status": "NOT_FOUND",
+    "timestamp": {
+      "year": 2020,
+      "month": "JUNE",
+      "monthValue": 6,
+      "dayOfMonth": 20,
+      "hour": 10,
+      "minute": 40,
+      "second": 52,
+      "nano": 66000000,
+      "dayOfWeek": "SATURDAY",
+      "dayOfYear": 172,
+      "chronology": {
+        "calendarType": "iso8601",
+        "id": "ISO"
+      }
+    },
+    "message": "User was not found for parameters {Id not found=123}Error in Id/Entity",
+    "debugMessage": null,
+    "subErrors": null
+  }
+}
+

@@ -1,0 +1,334 @@
+15:20:36.913 request:
+1 > GET http://35.188.114.237:8088/api/v2/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: 35.188.114.237:8088
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+
+15:20:37.455 response time in milliseconds: 539.74
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0
+1 < Content-Language: en-US
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Sat, 20 Jun 2020 09:50:37 GMT
+1 < Expires: Thu, 01 Jan 1970 00:00:00 GMT
+1 < Pragma: no-cache
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{
+  "user" : [ {
+    "id" : 1,
+    "name" : "Kanwarpreet Singh",
+    "surname" : " Khurana",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 2,
+    "name" : "Siddharth",
+    "surname" : "Polke",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 3,
+    "name" : "Hemant",
+    "surname" : "Mane",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 4,
+    "name" : "Abhishek",
+    "surname" : "Mangudkar",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 5,
+    "name" : "Sapna",
+    "surname" : "Sahu",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 6,
+    "name" : "Soumyajit",
+    "surname" : "Pal",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 7,
+    "name" : "Subodh",
+    "surname" : "Singh",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 8,
+    "name" : "Onkar",
+    "surname" : "Mirajkar",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 9,
+    "name" : "Nishant",
+    "surname" : "Shah",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 10,
+    "name" : "Habin",
+    "surname" : "Prasad",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 11,
+    "name" : "John",
+    "surname" : "Abraham",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 12,
+    "name" : "Saikiran",
+    "surname" : "Illendula",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 13,
+    "name" : "Ankush",
+    "surname" : "Singhal",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 14,
+    "name" : "Gitika",
+    "surname" : "Sinha",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 15,
+    "name" : "Sushant",
+    "surname" : "Langade",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 16,
+    "name" : "Vaishali",
+    "surname" : "Katkar",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 17,
+    "name" : "Hemant",
+    "surname" : "Kumar",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 18,
+    "name" : "Akshata",
+    "surname" : "Gavali",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 19,
+    "name" : "Bhartesh",
+    "surname" : "Bohra",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 20,
+    "name" : "Sumit",
+    "surname" : "Acharjee",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 21,
+    "name" : "Navaneeth",
+    "surname" : "Venugopal",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 22,
+    "name" : "Nishant",
+    "surname" : "Sanghai",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 23,
+    "name" : "Rajagopal",
+    "surname" : "V",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 24,
+    "name" : "Surbhi",
+    "surname" : "Sharma",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 25,
+    "name" : "Harshit",
+    "surname" : "Bhuradia",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 26,
+    "name" : "Shrinathacharya",
+    "surname" : "L M",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 27,
+    "name" : "Shrikrushna",
+    "surname" : "Chaudhari",
+    "adress" : "CTHackATAhon"
+  }, {
+    "id" : 28,
+    "name" : "Shubham",
+    "surname" : "Khare",
+    "adress" : "CTHackATAhon"
+  } ]
+}
+
+15:20:37.463 [print] Response {
+  "user": [
+    {
+      "id": 1,
+      "name": "Kanwarpreet Singh",
+      "surname": " Khurana",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 2,
+      "name": "Siddharth",
+      "surname": "Polke",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 3,
+      "name": "Hemant",
+      "surname": "Mane",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 4,
+      "name": "Abhishek",
+      "surname": "Mangudkar",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 5,
+      "name": "Sapna",
+      "surname": "Sahu",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 6,
+      "name": "Soumyajit",
+      "surname": "Pal",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 7,
+      "name": "Subodh",
+      "surname": "Singh",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 8,
+      "name": "Onkar",
+      "surname": "Mirajkar",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 9,
+      "name": "Nishant",
+      "surname": "Shah",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 10,
+      "name": "Habin",
+      "surname": "Prasad",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 11,
+      "name": "John",
+      "surname": "Abraham",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 12,
+      "name": "Saikiran",
+      "surname": "Illendula",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 13,
+      "name": "Ankush",
+      "surname": "Singhal",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 14,
+      "name": "Gitika",
+      "surname": "Sinha",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 15,
+      "name": "Sushant",
+      "surname": "Langade",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 16,
+      "name": "Vaishali",
+      "surname": "Katkar",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 17,
+      "name": "Hemant",
+      "surname": "Kumar",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 18,
+      "name": "Akshata",
+      "surname": "Gavali",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 19,
+      "name": "Bhartesh",
+      "surname": "Bohra",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 20,
+      "name": "Sumit",
+      "surname": "Acharjee",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 21,
+      "name": "Navaneeth",
+      "surname": "Venugopal",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 22,
+      "name": "Nishant",
+      "surname": "Sanghai",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 23,
+      "name": "Rajagopal",
+      "surname": "V",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 24,
+      "name": "Surbhi",
+      "surname": "Sharma",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 25,
+      "name": "Harshit",
+      "surname": "Bhuradia",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 26,
+      "name": "Shrinathacharya",
+      "surname": "L M",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 27,
+      "name": "Shrikrushna",
+      "surname": "Chaudhari",
+      "adress": "CTHackATAhon"
+    },
+    {
+      "id": 28,
+      "name": "Shubham",
+      "surname": "Khare",
+      "adress": "CTHackATAhon"
+    }
+  ]
+}
+

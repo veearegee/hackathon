@@ -1,0 +1,19 @@
+15:36:54.182 request:
+1 > PUT http://35.188.114.237:8088/api/v2/updateuser
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 61
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: 35.188.114.237:8088
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_121)
+{"id":29,"name":"Rajagopal","surname":"V","adress":"chennai"}
+
+15:36:54.709 response time in milliseconds: 524.55
+1 < 404
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Sat, 20 Jun 2020 10:06:54 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"apierror":{"status":"NOT_FOUND","timestamp":{"year":2020,"month":"JUNE","monthValue":6,"dayOfMonth":20,"hour":10,"minute":6,"second":54,"nano":569000000,"dayOfWeek":"SATURDAY","dayOfYear":172,"chronology":{"calendarType":"iso8601","id":"ISO"}},"message":"User was not found for parameters {Id not found=29}Error in Id/Entity","debugMessage":null,"subErrors":null}}
+
+15:36:54.711 status code was: 404, expected: 200, response time: 525, url: http://35.188.114.237:8088/api/v2/updateuser, response: {"apierror":{"status":"NOT_FOUND","timestamp":{"year":2020,"month":"JUNE","monthValue":6,"dayOfMonth":20,"hour":10,"minute":6,"second":54,"nano":569000000,"dayOfWeek":"SATURDAY","dayOfYear":172,"chronology":{"calendarType":"iso8601","id":"ISO"}},"message":"User was not found for parameters {Id not found=29}Error in Id/Entity","debugMessage":null,"subErrors":null}}
