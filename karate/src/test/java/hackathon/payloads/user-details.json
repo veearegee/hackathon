@@ -1,6 +1,0 @@
-{
-    "id": #(id),
-    "name": #(name),
-    "surname": #(surname),
-    "adress": #(address)
-}
